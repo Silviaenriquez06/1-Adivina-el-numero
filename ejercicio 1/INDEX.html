@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es-us">
+<head>
+
+  <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Juego de adivinanzas</title>
+        <link rel="stylesheet" type="text/css" href="est/estilo.css"/>
+    </head>
+    <body> 
+  
+<h1>ADIVINA EL NÚMERO!!</h1>
+<img src="img/numero.png" alt="imagen">
+
+
+<p>SE HA GENERADO UN NÚMERO ALEATORIO EN EL RANGO 1 A 100. ¡¡ADIVINA EL NÚMERO!! TIENES 10 OPORTUNIDADES!!</p>
+
+     <div id="display-resultado" style="height: 20px;"></div>
+</div>
+
+<div class="form">
+<label for="campo_num">INGRESE UN NÚMERO: </label>
+
+<input type="number" min="1" max="100" required id="campo_num" class="campo_num">
+
+<input type="submit" value="PROBAR NÚMERO" class="btn_probar_num">
+</div>
+
+<div class="div_result">
+<p class="num_ingresados"></p>
+<p class="ultimoResult"></p>
+<p class="pistas"></p>
+</div>
+</body>
+<script src="script/main.js"></script>
+</html>

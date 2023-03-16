@@ -1,0 +1,59 @@
+
+html {
+font-family: sans-serif;
+box-sizing: border-box;
+}
+
+
+body{
+width: 50%;
+max-width: 800px;
+min-width: 480px;
+margin: 0 auto;
+background-color: #bce234;
+box-sizing: border-box;
+}
+.form input[tipo="number "]{ 
+    width: 200px;
+}
+
+.UltimoResult{
+background-color: rgb(15, 182, 51);
+padding: 20px;
+}
+
+.btn_probar_num{
+    background-color: #faf622;
+    border: none;
+    font-size: 1rem;
+    font-family: Arial;
+    padding: 1rem;
+}
+
+.campo_num{
+    border: none;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(13, 12, 14);
+}
+label{
+    color: rgb(228, 29, 29);
+    
+}
+h1{ 
+    text-align: center;
+    font-size: 10;
+}
+img{
+    display: block;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
